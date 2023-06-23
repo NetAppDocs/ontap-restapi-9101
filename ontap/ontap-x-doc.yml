@@ -6186,6 +6186,6 @@ paths:
     get:
       x-doc:
         title: Retrieve trace results for access allowed or denied events
-        category: nas
+        category: NAS
         filename: get-protocols-file-access-tracing-events.html
         explorer: false
