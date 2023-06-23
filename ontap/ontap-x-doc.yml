@@ -6189,3 +6189,78 @@ paths:
         category: NAS
         filename: get-protocols-file-access-tracing-events.html
         explorer: false
+  "/protocols/file-access-tracing/events/{node.uuid}/{svm.uuid}/{index}":
+    delete:
+      x-doc:
+        title: Delete trace results
+        category: NAS
+        filename: delete-protocols-file-access-tracing-events--.html
+        explorer: false
+    get:
+      x-doc:
+        title: Retrieve trace results for a sequence number
+        category: NAS
+        filename: get-protocols-file-access-tracing-events--.html
+        explorer: false
+  "/protocols/file-access-tracing/filters":
+    get:
+      x-doc:
+        title: Retrieve information about security trace filter entries
+        category: NAS
+        filename: get-protocols-file-access-tracing-filters.html
+        explorer: false   
+    post:
+      x-doc:
+        title: Creates security trace filter entries
+        category: NAS
+        filename: post-protocols-file-access-tracing-filters.html
+        explorer: false
+  "/protocols/file-access-tracing/filters/{svm.uuid}/{index}":
+    delete:
+      x-doc:
+        title: Delete security trace filters
+        category: NAS
+        filename: delete-protocols-file-access-tracing-filters-.html
+        explorer: false  
+    get:
+      x-doc:
+        title: Retrieve information about security trace filter entries for an SVM
+        category: NAS
+        filename: get-protocols-file-access-tracing-filters-.html
+        explorer: false  
+    patch:
+      x-doc:
+        title: Update security trace filter entries
+        category: NAS
+        filename: patch-protocols-file-access-tracing-filters-.html
+        explorer: false 
+  "/storage/monitored-files": 
+    get:
+      x-doc:
+        title: Retrieve all monitored files
+        category: storage
+        filename: get-storage-monitored-files.html
+        subcategory: Manage storage montiored files
+        explorer: false  
+    post:
+      x-doc:
+        title: Create a monitored file
+        category: storage
+        filename: post-storage-monitored-files.html
+        subcategory: Manage storage montiored files
+        explorer: false
+  "/storage/monitored-files/{monitored_file.uuid}/metrics":
+    get:
+      x-doc:
+        title: Retrieve historical performance metrics for a monitored file
+        category: storage
+        filename: get-storage-monitored-files-metrics.html
+        explorer: false  
+  "/storage/monitored-files/{uuid}":
+    delete:
+      x-doc:
+        title: Removes the file from the monitored file list
+        category: storage
+        filename: delete-storage-monitored-files-.html
+        explorer: false  
+   
