@@ -6181,4 +6181,11 @@ paths:
         category: svm
         filename: patch-svm-svms-.html
         subcategory: Manage SVMs
+        explorer: false      
+  "/protocols/file-access-tracing/events":
+    get:
+      x-doc:
+        title: Retrieve trace results for access allowed or denied events
+        category: nas
+        filename: get-protocols-file-access-tracing-events.html
         explorer: false
