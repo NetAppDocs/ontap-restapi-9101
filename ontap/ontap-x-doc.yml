@@ -191,7 +191,6 @@ paths:
         title: Retrieve application templates
         category: application
         filename: get-application-templates.html
-        subcategory: View application templates
         explorer: false
   "/application/templates/{name}":
     get:
@@ -199,7 +198,6 @@ paths:
         title: Retrieve an application template
         category: application
         filename: get-application-templates-.html
-        subcategory: View application templates
         explorer: false
   "/cloud/targets":
     get:
@@ -1252,7 +1250,7 @@ paths:
   "/network/fc/interfaces":
     get:
       x-doc:
-        title: Retrieves FC interfaces
+        title: Retrieve FC interfaces
         category: networking
         filename: get-network-fc-interfaces.html
         subcategory: Manage FC network interfaces
@@ -2588,7 +2586,7 @@ paths:
   "/protocols/nfs/services":
     get:
       x-doc:
-        title: Retrieves NFS configuration for SVMs
+        title: Retrieve NFS configuration for SVMs
         category: NAS
         filename: get-protocols-nfs-services.html
         subcategory: Manage NFS services
@@ -3093,14 +3091,14 @@ paths:
         title: Retrieve initiator groups
         category: SAN
         filename: get-protocols-san-igroups.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
     post:
       x-doc:
         title: Create an initiator group
         category: SAN
         filename: post-protocols-san-igroups.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
   "/protocols/san/igroups/{igroup.uuid}/igroups":
     get:
@@ -3108,14 +3106,14 @@ paths:
         title: Retrieve nested initiator groups of an initiator group
         category: SAN
         filename: get-protocols-san-igroups-igroups.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
     post:
       x-doc:
         title: Add nested initiator groups to an initiator group
         category: SAN
         filename: post-protocols-san-igroups-igroups.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
   "/protocols/san/igroups/{igroup.uuid}/igroups/{uuid}":
     delete:
@@ -3123,14 +3121,14 @@ paths:
         title: Remove a nested initiator group from an initiator group
         category: SAN
         filename: delete-protocols-san-igroups-igroups-.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
     get:
       x-doc:
         title: Retrieve a nested initiator group of an initiator group
         category: SAN
         filename: get-protocols-san-igroups-igroups-.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
   "/protocols/san/igroups/{igroup.uuid}/initiators":
     get:
@@ -3138,14 +3136,14 @@ paths:
         title: Retrieve initiators of an initiator group
         category: SAN
         filename: get-protocols-san-igroups-initiators.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
     post:
       x-doc:
         title: Add initiators to an initiator group
         category: SAN
         filename: post-protocols-san-igroups-initiators.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
   "/protocols/san/igroups/{igroup.uuid}/initiators/{name}":
     delete:
@@ -3153,21 +3151,21 @@ paths:
         title: Delete an initiator from an initiator group
         category: SAN
         filename: delete-protocols-san-igroups-initiators-.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
     get:
       x-doc:
         title: Retrieve an initiator 
         category: SAN
         filename: get-protocols-san-igroups-initiators-.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
     patch:
       x-doc:
         title: Update an initiator 
         category: SAN
         filename: patch-protocols-san-igroups-initiators-.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
   "/protocols/san/igroups/{uuid}":
     delete:
@@ -3175,21 +3173,21 @@ paths:
         title: Delete an initiator group
         category: SAN
         filename: delete-protocols-san-igroups-.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
     get:
       x-doc:
         title: Retrieve an initiator group
         category: SAN
         filename: get-protocols-san-igroups-.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
     patch:
       x-doc:
         title: Update an initiator group
         category: SAN
         filename: patch-protocols-san-igroups-.html
-        subcategory: Manage SAN iGroups
+        subcategory: Manage SAN igroups
         explorer: false
   "/protocols/san/iscsi/credentials":
     get:
@@ -3356,14 +3354,14 @@ paths:
         title: Retrieve portsets
         category: SAN
         filename: get-protocols-san-portsets.html
-        subcategory: Manage SAN postSets
+        subcategory: Manage SAN portsets
         explorer: false
     post:
       x-doc:
         title: Create a portset
         category: SAN
         filename: post-protocols-san-portsets.html
-        subcategory: Manage SAN postSets
+        subcategory: Manage SAN portsets
         explorer: false
   "/protocols/san/portsets/{portset.uuid}/interfaces":
     get:
@@ -3371,14 +3369,14 @@ paths:
         title: Retrieve portset network interfaces
         category: SAN
         filename: get-protocols-san-portsets-interfaces.html
-        subcategory: Manage SAN postSets
+        subcategory: Manage SAN portsets
         explorer: false
     post:
       x-doc:
         title: Add portset network interfaces
         category: SAN
         filename: post-protocols-san-portsets-interfaces.html
-        subcategory: Manage SAN postSets
+        subcategory: Manage SAN portsets
         explorer: false
   "/protocols/san/portsets/{portset.uuid}/interfaces/{uuid}":
     delete:
@@ -3386,14 +3384,14 @@ paths:
         title: Delete portset network interfaces
         category: SAN
         filename: delete-protocols-san-portsets-interfaces-.html
-        subcategory: Manage SAN postSets
+        subcategory: Manage SAN portsets
         explorer: false
     get:
       x-doc:
         title: Retrieve specific portset network interfaces
         category: SAN
         filename: get-protocols-san-portsets-interfaces-.html
-        subcategory: Manage SAN postSets
+        subcategory: Manage SAN portsets
         explorer: false
   "/protocols/san/portsets/{uuid}":
     delete:
@@ -3401,14 +3399,14 @@ paths:
         title: Delete a portset
         category: SAN
         filename: delete-protocols-san-portsets-.html
-        subcategory: Manage SAN postSets
+        subcategory: Manage SAN portsets
         explorer: false
     get:
       x-doc:
         title: Retrieve a portset
         category: SAN
         filename: get-protocols-san-portsets-.html
-        subcategory: Manage SAN postSets
+        subcategory: Manage SAN portsets
         explorer: false
   "/protocols/san/vvol-bindings":
     get:
@@ -4212,14 +4210,12 @@ paths:
         title: List key servers configured in an external key manager
         category: security
         filename: get-security-key-managers-key-servers.html
-        subcategory: Manage security key managers
         explorer: false
     post:
       x-doc:
         title: Add primary key servers to an external key manager
         category: security
         filename: post-security-key-managers-key-servers.html
-        subcategory: Manage key manager servers
         explorer: false
   "/security/key-managers/{uuid}/key-servers/{server}":
     delete:
@@ -4227,21 +4223,18 @@ paths:
         title: Delete a primary key server
         category: security
         filename: delete-security-key-managers-key-servers-.html
-        subcategory: Manage key manager servers
         explorer: false
     get:
       x-doc:
         title: Retrieve key servers configured in an external key manager
         category: security
         filename: get-security-key-managers-key-servers-.html
-        subcategory: Manage key manager servers
         explorer: false
     patch:
       x-doc:
         title: Update a primary key server
         category: security
         filename: patch-security-key-managers-key-servers-.html
-        subcategory: Manage key manager servers
         explorer: false
   "/security/key-stores":
     get:
@@ -4257,6 +4250,7 @@ paths:
         title: Retrieve login banner and messages of the day
         category: security
         filename: get-security-login-messages.html
+        subcategory: Manage security login messages
         explorer: false
   "/security/login/messages/{uuid}":
     get:
@@ -4264,14 +4258,14 @@ paths:
         title: Retrieve login messages configuration by UUID
         category: security
         filename: get-security-login-messages-.html
-        subcategory: View and update login message configuration
+        subcategory: Manage security login messages
         explorer: false
     patch:
       x-doc:
         title: Update login messages configuration
         category: security
         filename: patch-security-login-messages-.html
-        subcategory: View and update login message configuration
+        subcategory: Manage security login messages
         explorer: false
 
   "/security/roles":
@@ -4554,21 +4548,18 @@ paths:
         title: Delete an aggregate specified by the UUID
         category: storage
         filename: delete-storage-aggregates-.html
-        subcategory: Manage storage aggregates
         explorer: false
     get:
       x-doc:
         title: Retrieve an aggregate specified by the UUID
         category: storage
         filename: get-storage-aggregates-.html
-        subcategory: Manage storage aggregates
         explorer: false
     patch:
       x-doc:
         title: Update an aggregate specified by the UUID 
         category: storage
         filename: patch-storage-aggregates-.html
-        subcategory: Manage storage aggregates
         explorer: false
   "/storage/aggregates/{uuid}/metrics":
     get:
@@ -4600,7 +4591,6 @@ paths:
         title: Report cluster-wide storage details across different tiers
         category: storage
         filename: get-storage-cluster.html
-        subcategory: Manage bridges
         explorer: false
   "/storage/disks":
     get:
@@ -4715,7 +4705,6 @@ paths:
         title: Start a file copy operation
         category: storage
         filename: post-storage-file-copy.html
-        subcategory: Manage storage file clones
         explorer: false
   
   
