@@ -5075,7 +5075,7 @@ paths:
         explorer: false
     patch:
       x-doc:
-        title: Update a shelf location led
+        title: Update a shelf location LED
         category: storage
         filename: patch-storage-shelves-.html
         subcategory: Manage shelves
