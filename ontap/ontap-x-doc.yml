@@ -3914,7 +3914,7 @@ paths:
         explorer: false
     get:
       x-doc:
-        title: Retrieve AKV configuration for an SVM specified by the UUID
+        title: Retrieve the AKV configuration for an SVM specified by the UUID
         category: security
         filename: get-security-azure-key-vaults-.html
         subcategory: Manage Azure Key Vaults 
@@ -3998,7 +3998,7 @@ paths:
         explorer: false
     post:
       x-doc:
-        title: Create Google Cloud KMS configuration for an SVM
+        title: Create the Google Cloud KMS configuration for an SVM
         category: security
         filename: post-security-gcp-kms.html
         subcategory: Manage GCP KMS
@@ -4036,7 +4036,7 @@ paths:
   "/security/gcp-kms/{uuid}/restore":
     post:
       x-doc:
-        title: Restore keys for an SVM from a Google Cloud KMS
+        title: Restore the keys for an SVM from a Google Cloud KMS
         category: security
         filename: post-security-gcp-kms-restore.html
         subcategory: Manage GCP KMS
@@ -4044,14 +4044,14 @@ paths:
   "/security/ipsec":
     get:
       x-doc:
-        title: Retrieve IPsec configuration 
+        title: Retrieve an IPsec configuration 
         category: security
         filename: get-security-ipsec.html
         subcategory: View and update IPsec configuration
         explorer: false
     patch:
       x-doc:
-        title: Update IPsec configuration
+        title: Update an IPsec configuration
         category: security
         filename: patch-security-ipsec.html
         subcategory: View and update IPsec configuration
@@ -4256,14 +4256,14 @@ paths:
   "/security/login/messages/{uuid}":
     get:
       x-doc:
-        title: Retrieve login messages configuration by UUID
+        title: Retrieve the login messages configuration by UUID
         category: security
         filename: get-security-login-messages-.html
         subcategory: View and update login message configuration
         explorer: false
     patch:
       x-doc:
-        title: Update login messages configuration
+        title: Update the login messages configuration
         category: security
         filename: patch-security-login-messages-.html
         subcategory: View and update login message configuration
