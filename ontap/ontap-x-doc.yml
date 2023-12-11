@@ -4082,7 +4082,7 @@ paths:
         explorer: false
     get:
       x-doc:
-        title: Retrieve a CA certificate configured for IPpsec
+        title: Retrieve a CA certificate configured for IPsec
         category: security
         filename: get-security-ipsec-ca-certificates-.html
         subcategory: Manage IPsec security certificates
@@ -4569,7 +4569,7 @@ paths:
         title: Retrieve historical performance metrics for an aggregate
         category: storage
         filename: get-storage-aggregates-metrics.html
-        subcategory: Storage aggregate metrics
+        subcategory: Manage storage aggregate metrics
         explorer: false
   "/storage/bridges":
     get:
