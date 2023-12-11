@@ -281,6 +281,7 @@ paths:
         title: Retrieve history details for firmware update requests
         category: cluster
         filename: get-cluster-firmware-history.html
+        subcategory: Manage cluster firmware history
         explorer: false
   "/cluster/jobs":
     get:
@@ -4341,7 +4342,7 @@ paths:
   "/security/ssh":
     get:
       x-doc:
-        title: Retrieve cluster SSH server ciphers, mac algorithms, key exchange algorithms, and connection limits
+        title: Retrieve cluster SSH server ciphers, MAC algorithms, key exchange algorithms, and connection limits
         category: security
         filename: get-security-ssh.html
         subcategory: Manage SSH server
@@ -4635,7 +4636,7 @@ paths:
   "/storage/file/clone/split-loads/{node.uuid}":
     get:
       x-doc:
-        title: Retrieve volume file clone split load rest
+        title: Retrieve the volume file clone split load 
         category: storage
         filename: get-storage-file-clone-split-loads-.html
         subcategory: Manage storage file clones
