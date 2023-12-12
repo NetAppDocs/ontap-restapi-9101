@@ -240,14 +240,14 @@ paths:
   "/cluster":
     get:
       x-doc:
-        title: Retrieve cluster configuration
+        title: Retrieve a cluster configuration
         category: cluster
         filename: get-cluster.html
         subcategory: Manage clusters
         explorer: false
     patch:
       x-doc:
-        title: Update cluster configuration 
+        title: Update a cluster configuration 
         category: cluster
         filename: patch-cluster.html
         subcategory: Manage clusters
@@ -340,7 +340,7 @@ paths:
         explorer: false
     patch:
       x-doc:
-        title: Update license manager configuration
+        title: Update the license manager configuration
         category: cluster
         filename: patch-cluster-licensing-license-managers-.html
         subcategory: Manage cluster license managers
@@ -515,7 +515,7 @@ paths:
   "/cluster/metrocluster/nodes/{node.uuid}":
     get:
       x-doc:
-        title: Retrieve node configuration in MetroCluster
+        title: Retrieve the node configuration in MetroCluster
         category: cluster
         filename: get-cluster-metrocluster-nodes-.html
         subcategory: Retrieve MetroCluster node configurations
@@ -584,7 +584,7 @@ paths:
   "/cluster/ntp/keys":
     get:
       x-doc:
-        title: Retrieve NTP symmetric authentication keys
+        title: Retrieve the NTP symmetric authentication keys
         category: cluster
         filename: get-cluster-ntp-keys.html
         subcategory: Manage cluster NTP keys
@@ -748,7 +748,7 @@ paths:
   "/cluster/software/download":
     get:
       x-doc:
-        title: Retrieve software or firmware download status
+        title: Retrieve the software or firmware download status
         category: cluster
         filename: get-cluster-software-download.html
         subcategory: Manage cluster software
@@ -763,7 +763,7 @@ paths:
   "/cluster/software/history":
     get:
       x-doc:
-        title: Retrieve software installation requests history details 
+        title: Retrieve the software installation request history details 
         category: cluster
         filename: get-cluster-software-history.html
         subcategory: Manage cluster software
@@ -786,7 +786,7 @@ paths:
         explorer: false
     get:
       x-doc:
-        title: Retrieve software package information
+        title: Retrieve the software package information
         category: cluster
         filename: get-cluster-software-packages-.html
         subcategory: Manage cluster software
@@ -848,7 +848,7 @@ paths:
   "/name-services/dns/{svm.uuid}":
     delete:
       x-doc:
-        title: Delete DNS domain configuration  
+        title: Delete a DNS domain configuration  
         category: name-services
         filename: delete-name-services-dns-.html
         subcategory: Manage DNS configurations
@@ -893,21 +893,21 @@ paths:
   "/name-services/ldap/{svm.uuid}":
     delete:
       x-doc:
-        title: Delete LDAP configuration for an SVM
+        title: Delete the LDAP configuration for an SVM
         category: name-services
         filename: delete-name-services-ldap-.html
         subcategory: Manage LDAP server configurations
         explorer: false
     get:
       x-doc:
-        title: Retrieve LDAP configuration for an SVM
+        title: Retrieve the LDAP configuration for an SVM
         category: name-services
         filename: get-name-services-ldap-.html
         subcategory: Manage LDAP server configurations
         explorer: false
     patch:
       x-doc:
-        title: Update LDAP configuration for an SVM
+        title: Update the LDAP configuration for an SVM
         category: name-services
         filename: patch-name-services-ldap-.html
         subcategory: Manage LDAP server configurations
@@ -937,14 +937,14 @@ paths:
         explorer: false
     get:
       x-doc:
-        title: Retrieve hostname mapping for an SVM
+        title: Retrieve a hostname mapping for an SVM
         category: name-services
         filename: get-name-services-local-hosts-.html
         subcategory: Manage local mapping for hostnames
         explorer: false
     patch:
       x-doc:
-        title: Update hostname mapping for an SVM
+        title: Update a hostname mapping for an SVM
         category: name-services
         filename: patch-name-services-local-hosts-.html
         subcategory: Manage local mapping for hostnames
@@ -959,7 +959,7 @@ paths:
         explorer: false
     post:
       x-doc:
-        title: Create hostname mappings for an SVM
+        title: Create the hostname mappings for an SVM
         category: name-services
         filename: post-name-services-name-mappings.html
         subcategory: Manage name mappings for SVMs
