@@ -822,7 +822,6 @@ paths:
         filename: patch-name-services-cache-host-settings-.html
         subcategory: Manage host cache settings
         explorer: false
-        explorer: false
   "/name-services/cache/unix-user/settings":
     get:
       x-doc:
