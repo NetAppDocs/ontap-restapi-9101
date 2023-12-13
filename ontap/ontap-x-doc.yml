@@ -6140,14 +6140,14 @@ paths:
         title: Retrieve the web services security configuration
         category: svm
         filename: get-svm-svms-web.html
-        subcategory: Web services security configuration
+        subcategory: Manage web services security configuration
         explorer: false
     patch:
       x-doc:
         title: Update the web services security configuration
         category: svm
         filename: patch-svm-svms-web.html
-        subcategory: Web services security configuration
+        subcategory: Manage web services security configuration
         explorer: false
   "/svm/svms/{uuid}":
     delete:
