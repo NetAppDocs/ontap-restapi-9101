@@ -1,0 +1,234 @@
+---
+sidebar: sidebar
+api: true
+explorer: false
+permalink: 'patch-svm-migrations-.html'
+summary: 'Update actions performed during an SVM migration'
+---
+
+= Update actions performed during an SVM migration
+
+[.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/svm/migrations/{uuid}`#
+
+*Introduced In:* 9.10
+
+Actions that can be performed during an SVM migration.
+
+== Related ONTAP commands
+
+* `vserver migrate pause`
+* `vserver migrate resume`
+* `vserver migrate cutover`
+* `vserver migrate source-cleanup`
+
+
+== Parameters
+
+[cols=5*,options=header]
+|===
+
+|Name
+|Type
+|In
+|Required
+|Description
+
+|uuid
+|string
+|path
+|True
+a|SVM migration UUID
+
+
+|action
+|string
+|query
+|False
+a|The pause action pauses the SVM migration. This action stops data transfer and configuration replication. This operation must be performed on the destination cluster.
+The resume action resumes an SVM migration from a paused or failed state. This operation must be performed on the destination cluster.
+The cutover action triggers the cutover of an SVM from the source cluster to the destination cluster.
+The source_clean up action performs a clean up of the SVM on the source cluster.
+
+* enum: ["pause", "resume", "cutover", "source_cleanup"]
+
+
+|auto_cutover
+|boolean
+|query
+|False
+a|Optional property that when set to true automatically performs cutover when the migration state reaches "ready for cutover".
+
+* Default value: 1
+
+
+|auto_source_cleanup
+|boolean
+|query
+|False
+a|Optional property that when set to true automatically cleans up the SVM on the source cluster after the migration cutover.
+
+* Default value: 1
+
+
+|return_timeout
+|integer
+|query
+|False
+a|The number of seconds to allow the call to execute before returning. When doing a POST, PATCH, or DELETE operation on a single record, the default is 0 seconds.  This means that if an asynchronous operation is started, the server immediately returns HTTP code 202 (Accepted) along with a link to the job.  If a non-zero value is specified for POST, PATCH, or DELETE operations, ONTAP waits that length of time to see if the job completes so it can return something other than 202.
+
+* Default value: 0
+* Max value: 120
+* Min value: 0
+
+|===
+
+== Response
+
+```
+Status: 202, Accepted
+```
+
+
+[cols=3*,options=header]
+|===
+|Name
+|Type
+|Description
+
+|job
+|link:#job_link[job_link]
+a|
+
+|===
+
+
+.Example response
+[%collapsible%closed]
+====
+[source,json,subs=+macros]
+{
+  "job": {
+    "uuid": "string"
+  }
+}
+====
+
+== Error
+
+```
+Status: Default
+```
+
+ONTAP Error Response Codes
+
+|===
+| Error Code | Description
+
+| 13172783
+| Migrate RDB lookup failed
+|===
+
+
+== Definitions
+
+[.api-def-first-level]
+.See Definitions
+[%collapsible%closed]
+//Start collapsible Definitions block
+====                
+[#href]
+[.api-collapsible-fifth-title]
+href
+
+[cols=3*,options=header]
+|===
+|Name
+|Type
+|Description
+
+|href
+|string
+a|
+
+|===
+
+
+[#_links]
+[.api-collapsible-fifth-title]
+_links
+[#job_link]
+[.api-collapsible-fifth-title]
+job_link
+
+[cols=3*,options=header]
+|===
+|Name
+|Type
+|Description
+
+|uuid
+|string
+a|The UUID of the asynchronous job that is triggered by a POST, PATCH, or DELETE operation.
+
+
+|===
+
+
+[#error_arguments]
+[.api-collapsible-fifth-title]
+error_arguments
+
+[cols=3*,options=header]
+|===
+|Name
+|Type
+|Description
+
+|code
+|string
+a|Argument code
+
+
+|message
+|string
+a|Message argument
+
+
+|===
+
+
+[#error]
+[.api-collapsible-fifth-title]
+error
+
+[cols=3*,options=header]
+|===
+|Name
+|Type
+|Description
+
+|arguments
+|array[link:#error_arguments[error_arguments]]
+a|Message arguments
+
+
+|code
+|string
+a|Error code
+
+
+|message
+|string
+a|Error message
+
+
+|target
+|string
+a|The target parameter that caused the error.
+
+
+|===
+
+
+//end collapsible .Definitions block
+====

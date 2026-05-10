@@ -1,0 +1,20 @@
+---
+sidebar: sidebar
+api: true
+explorer: false
+permalink: 'view_and_update_key_manager_configurations.html'
+summary: 'View and update key manager configurations'
+---
+
+= View and update key manager configurations
+
+
+
+== Overview
+
+Retrieves or modifies the key management configuration options. The following operations are supported:
+
+* GET
+* PATCH
+
+

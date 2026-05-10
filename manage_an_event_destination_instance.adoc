@@ -1,0 +1,94 @@
+---
+sidebar: sidebar
+api: true
+explorer: false
+permalink: 'manage_an_event_destination_instance.html'
+summary: 'Manage an event destination instance'
+---
+
+= Manage an event destination instance
+
+
+
+== Overview
+
+Manages a specific instance of a destination. There are limits to the information that you can modify after a destination is created. For example, you cannot change a destination's type, but you can modify the underlying details of the type.
+
+NOTE: The system defines default destinations that cannot be removed or modified. These destinations are specified by setting the "system_defined" field to "true".
+
+See the documentation for <</docs/support/support_ems_destinations,/support/ems/destinations>> for details on the various properties in a destination.
+
+== Examples
+
+=== Retrieving a specific destination instance
+
+[,json]
+----
+
+# The API:
+GET /api/support/ems/destinations/{name}
+
+# The call:
+curl -X GET "https://<mgmt-ip>/api/support/ems/destinations/snmp-traphost" -H "accept: application/hal+json"
+
+# The response:
+200 OK
+
+# JSON Body
+{
+"name": "snmp-traphost",
+"type": "snmp",
+"destination": "",
+"filters": [
+  {
+    "name": "default-trap-events",
+    "_links": {
+      "self": {
+        "href": "/api/support/ems/filters/default-trap-events"
+      }
+    }
+  }
+],
+"_links": {
+  "self": {
+    "href": "/api/support/ems/destinations/snmp-traphost"
+  }
+}
+}
+----
+
+=== Updating an existing destination (change of email address)
+
+[,json]
+----
+
+# The API:
+PATCH /api/support/ems/destinations/{name}
+
+# The call:
+curl -X POST "https://<mgmt-ip>/api/support/ems/destinations/test-destination" -H "accept: application/hal+json" -H "Content-Type: application/json" -d "@test_ems_destinations_patch.txt"
+test_ems_destinations_patch.txt(body):
+{
+"destination": "support@mycompany.com"
+}
+
+# The response:
+200 OK
+----
+
+=== Deleting an existing destination
+
+[,json]
+----
+
+# The API:
+DELETE /api/support/ems/destinations/{name}
+
+# The call:
+curl -X DELETE "https://<mgmt-ip>/api/support/ems/destinations/test-destination" -H "accept: application/hal+json"
+
+# The response:
+200 OK
+----
+
+
