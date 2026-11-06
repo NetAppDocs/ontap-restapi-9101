@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-monitored-files.html'
+keywords: 'monitored file,create monitored file,file path,volume uuid,svm name,volume name'
 summary: 'Create a monitored file'
 ---
 
 = Create a monitored file
+:imagesdir: ./media/
+
+[.lead]
+Creates a monitored file to track changes within a specified file path. This helps you manage and review file activities in your storage environment effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/monitored-files`#
 
-*Introduced In:* 9.8
+== Introduced in
 
-Creates a monitored file.
+ONTAP 9.8
 
 == Required properties
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ldap_server_configuration.html'
+keywords: 'ldap server,ldap configuration,cluster ldap,manage ldap,ldap directory,ldap security'
 summary: 'Manage LDAP server configuration'
 ---
 
 = Manage LDAP server configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve and manage cluster LDAP server configurations to centralize user information within your ONTAP environment. Use these endpoints to set up and maintain the necessary LDAP configurations for accessing data stored in external LDAP directories.
 
 == Overview
 

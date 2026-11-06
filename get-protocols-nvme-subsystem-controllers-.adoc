@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nvme-subsystem-controllers-.html'
+keywords: 'nvme subsystem,subsystem controller,nvme controller,unique identifier,nvme protocols'
 summary: 'Retrieve an NVMe subsystem controller'
 ---
 
 = Retrieve an NVMe subsystem controller
+:imagesdir: ./media/
+
+[.lead]
+Retrieves an NVMe subsystem controller to access its current configuration and operational details. This information helps you manage NVMe protocol settings effectively for your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nvme/subsystem-controllers/{subsystem.uuid}/{id}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves an NVMe subsystem controller.
+ONTAP 9.6
 
 == Related ONTAP commands
 

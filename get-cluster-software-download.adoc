@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-software-download.html'
+keywords: 'software download status,firmware download,download progress,cluster software,firmware status'
 summary: 'Retrieve the software or firmware download status'
 ---
 
 = Retrieve the software or firmware download status
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the current status of a software or firmware download, helping you monitor the progress and identify any issues during the download process.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/software/download`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Retrieves the software or firmware download status.
 

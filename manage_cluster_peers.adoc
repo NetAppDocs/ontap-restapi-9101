@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster_peers.html'
+keywords: 'cluster peering,ontap systems,intercluster lif,peer relationship,encryption protocol'
 summary: 'Manage cluster peers'
 ---
 
 = Manage cluster peers
+:imagesdir: ./media/
 
-
+[.lead]
+Establish and manage relationships between independent clusters using cluster peering endpoints. These endpoints facilitate data exchange and configuration coordination between clusters, supporting create, get, modify, and delete operations to maintain seamless intercluster communication.
 
 == Overview
 

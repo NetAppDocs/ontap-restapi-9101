@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-aggregates-cloud-stores.html'
+keywords: 'aggregate attach,cloud store mirror,object store attach,flexgroup support,aggregate uuid,object store validation'
 summary: 'Attach an object store to an aggregate or add a second object store as a mirror'
 ---
 
 = Attach an object store to an aggregate or add a second object store as a mirror
+:imagesdir: ./media/
+
+[.lead]
+Attaches an object store to an aggregate to integrate cloud storage with your ONTAP environment, or adds a second object store as a mirror for redundancy and data protection.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/aggregates/{aggregate.uuid}/cloud-stores`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Attaches an object store to an aggregate, or adds a second object store as a mirror.
 

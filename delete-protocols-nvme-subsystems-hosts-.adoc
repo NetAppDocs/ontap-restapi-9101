@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-protocols-nvme-subsystems-hosts-.html'
+keywords: 'nvme subsystem,subsystem host,delete host,nvme protocols,remove host,nvme qualified name'
 summary: 'Delete an NVMe subsystem host'
 ---
 
 = Delete an NVMe subsystem host
+:imagesdir: ./media/
+
+[.lead]
+Removes an NVMe subsystem host from an NVMe subsystem when it is no longer needed, streamlining your storage configuration.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/protocols/nvme/subsystems/{subsystem.uuid}/hosts/{nqn}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Deletes an NVMe subsystem host from an NVMe subsystem.
 

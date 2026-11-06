@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_snapmirror_relationships.html'
+keywords: 'snapmirror relationships,extended data protection,synchronous relationship,flexvol volumes,consistency group,svm peering'
 summary: 'Manage SnapMirror relationships'
 ---
 
 = Manage SnapMirror relationships
+:imagesdir: ./media/
 
-
+[.lead]
+Manage SnapMirror relationships to provide data protection and disaster recovery for FlexVols, FlexGroups, and SVMs. Use these endpoints to establish asynchronous and synchronous relationships with various protection policies, including automated failover for high availability.
 
 == Overview
 

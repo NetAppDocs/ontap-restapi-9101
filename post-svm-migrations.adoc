@@ -3,16 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-svm-migrations.html'
+keywords: 'svm migration,destination cluster,source svm,source cluster,aggregate list,ipspace'
 summary: 'Create an SVM migration operation'
 ---
 
 = Create an SVM migration operation
+:imagesdir: ./media/
+
+[.lead]
+Creates an SVM migration operation on the destination cluster to transfer an SVM while preserving its identity from the source cluster. This operation allows you to specify aggregates for volume creation and perform pre-checks to ensure migration readiness.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/svm/migrations`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Creates an SVM migration operation. This API must be executed on the destination cluster. This API creates an SVM on the destination cluster and preserves the SVM's identity specified in the source cluster.
+ONTAP 9.10
+
+== Usage notes
+
+This API must be executed on the destination cluster. This API creates an SVM on the destination cluster and preserves the SVM's identity specified in the source cluster.
 Optionally, you can specify the aggregate list for creating the volumes, and IPspace. You can perform pre-checks to verify if SVM migration is possible, by setting the "check-only" option to "true". By default the values for auto-source-cleanup and auto-cutover is true.
 
 == Required properties

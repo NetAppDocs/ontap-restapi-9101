@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'retrieve_clients.html'
+keywords: 'clients io,io activity,iops,throughput,volume activity'
 summary: 'Retrieve clients'
 ---
 
 = Retrieve clients
+:imagesdir: ./media/
 
-
+[.lead]
+Retrieve a list of clients with the highest IO activity for a specified volume to analyze performance characteristics. Use the `top_metric` parameter to filter by specific IO activity types, such as `iops` or `throughput`. Keep in mind that this API returns only one type of IO activity per request and may fail if the volume lacks activity tracking or sufficient read/write traffic.
 
 == Overview
 

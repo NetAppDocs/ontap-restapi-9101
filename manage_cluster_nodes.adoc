@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cluster_nodes.html'
+keywords: 'cluster nodes, add node, node configuration, node state, ha takeover'
 summary: 'Manage cluster nodes'
 ---
 
 = Manage cluster nodes
+:imagesdir: ./media/
 
-
+[.lead]
+Use the Manage Cluster Nodes API to add, update, and delete nodes within your cluster. You can adjust configurations specific to each node and monitor their operational state for optimal cluster management.
 
 = Overview
 

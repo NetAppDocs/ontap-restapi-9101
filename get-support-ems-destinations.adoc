@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-support-ems-destinations.html'
+keywords: 'event destinations,retrieve destinations,event notification,destination filter,event collection,system defined'
 summary: 'Retrieve a collection of event destinations'
 ---
 
 = Retrieve a collection of event destinations
+:imagesdir: ./media/
+
+[.lead]
+Retrieves information about event destinations, helping you manage and monitor event notifications effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/support/ems/destinations`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a collection of event destinations.
 

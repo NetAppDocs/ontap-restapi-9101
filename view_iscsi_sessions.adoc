@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_iscsi_sessions.html'
+keywords: 'iscsi sessions, iscsi initiator, iscsi target, tcp connections, target portal group'
 summary: 'View iSCSI sessions'
 ---
 
 = View iSCSI sessions
+:imagesdir: ./media/
 
-
+[.lead]
+The iSCSI sessions endpoints provide detailed information about active connections between iSCSI initiators and targets within your ONTAP environment. Use these endpoints to monitor session activity, including control, data, and status messages exchanged over established TCP connections.
 
 == Overview
 

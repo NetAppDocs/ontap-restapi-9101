@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-software-packages.html'
+keywords: 'cluster software,software packages,repository view,package retrieval,version filter,create time filter'
 summary: 'Retrieve cluster software packages'
 ---
 
 = Retrieve cluster software packages
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the software packages for a cluster to review the available updates or installations.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/software/packages`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the software packages for a cluster.
+ONTAP 9.6
 
 == Related ONTAP commands
 

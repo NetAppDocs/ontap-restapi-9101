@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-vscan-scanner-pools-.html'
+keywords: 'vscan configuration,scanner pool update,svm management,role modification,privileged users,cluster assignment'
 summary: 'Update the Vscan scanner-pool configuration for an SVM'
 ---
 
 = Update the Vscan scanner-pool configuration for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Updates the Vscan scanner-pool configuration for an SVM to manage the settings effectively. Use this operation when you need to change the server, role, or privileged user settings for a scanner-pool associated with a specific cluster.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/vscan/{svm.uuid}/scanner-pools/{name}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates the Vscan scanner-pool configuration of an SVM.
 

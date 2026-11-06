@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_network_ip_interfaces.html'
+keywords: 'network ip interfaces,cluster configuration,interface creation,interface retrieval,interface update,interface delete'
 summary: 'Manage network IP interfaces'
 ---
 
 = Manage network IP interfaces
+:imagesdir: ./media/
 
-
+[.lead]
+Manage network IP interfaces through operations like creation, retrieval, updating, and deletion. Use these endpoints to configure and maintain IP interfaces within your cluster, ensuring efficient network communication and management.
 
 == Overview
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_unix_group_configurations.html'
+keywords: 'unix group,svm configuration,data svm,local unix group,unix group management'
 summary: 'Manage UNIX group configurations'
 ---
 
 = Manage UNIX group configurations
+:imagesdir: ./media/
 
-
+[.lead]
+Use the UNIX group configuration endpoints to display and manage local UNIX group information within your ONTAP environment. These endpoints help control configurations related to data SVMs, facilitating streamlined management of UNIX groups.
 
 == Overview
 

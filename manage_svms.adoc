@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_svms.html'
+keywords: 'manage svms,cluster administrator,svm resources,data access,protocol configuration,services configuration'
 summary: 'Manage SVMs'
 ---
 
 = Manage SVMs
+:imagesdir: ./media/
 
-
+[.lead]
+Manage storage virtual machines (SVMs) to orchestrate resources and protocols within your ONTAP environment. While cluster administrators handle SVM creation and modification, SVM administrators focus on configuring data access protocols, services, and monitoring tasks according to their assigned capabilities.
 
 == Managing SVMs
 

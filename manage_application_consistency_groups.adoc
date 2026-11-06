@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_application_consistency_groups.html'
+keywords: 'consistency groups,snapshot copy,write fence,crash consistent,volume granular'
 summary: 'Manage application consistency groups'
 ---
 
 = Manage application consistency groups
+:imagesdir: ./media/
 
-
+[.lead]
+Consistency group APIs manage groups of volumes that require synchronized operations, such as creating point-in-time snapshots with write-fences. Use these endpoints to perform operations on applications with datasets spanning multiple volumes, ensuring data consistency across the group.
 
 == Overview
 

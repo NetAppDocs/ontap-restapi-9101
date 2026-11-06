@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-nfs-services.html'
+keywords: 'nfs configuration,svm creation,export policy,access cache,ontap protocols'
 summary: 'Create the NFS configuration for an SVM'
 ---
 
 = Create the NFS configuration for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Creates an NFS configuration for a storage virtual machine (SVM) to enable and define how NFS protocols interact with the SVM. This is typically done to set up or modify NFS services for the SVM.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/nfs/services`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Creates an NFS configuration for an SVM.
 

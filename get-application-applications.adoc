@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-application-applications.html'
+keywords: 'applications retrieve,filter applications,applications sorting,svm applications,sql applications,san applications'
 summary: 'Retrieve applications'
 ---
 
 = Retrieve applications
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a list of applications to view and analyze their configurations and properties. Use this endpoint to access various query options for sorting and filtering applications based on criteria like name, storage virtual machine, or protocol.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/applications`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves applications.
 

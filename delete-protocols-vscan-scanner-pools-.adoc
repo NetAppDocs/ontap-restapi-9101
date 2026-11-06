@@ -3,16 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-protocols-vscan-scanner-pools-.html'
+keywords: 'vscan configuration,deletion,vscan scanner-pool,svm management,scanner-pool removal,ontap commands'
 summary: 'Delete a Vscan scanner-pool configuration'
 ---
 
 = Delete a Vscan scanner-pool configuration
+:imagesdir: ./media/
+
+[.lead]
+Deletes a Vscan scanner-pool configuration to remove the scanner-pools associated with a specified SVM. This operation is typically performed when you need to reconfigure or remove all scanner-pools for a Vscan-enabled SVM.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/protocols/vscan/{svm.uuid}/scanner-pools/{name}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Deletes a Vscan scanner-pool configuration.
+ONTAP 9.6
+
+== Usage notes
 
 Important notes:
 

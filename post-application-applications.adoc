@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-application-applications.html'
+keywords: 'create application,template properties,svm name,nfs access,os type,cifs access'
 summary: 'Create an application'
 ---
 
 = Create an application
+:imagesdir: ./media/
+
+[.lead]
+Creates an application by specifying a template and providing necessary details such as name and SVM. This endpoint helps you deploy applications efficiently by leveraging predefined templates that incorporate best practices.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/application/applications`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates an application.
+ONTAP 9.6
 
 == Template properties
 

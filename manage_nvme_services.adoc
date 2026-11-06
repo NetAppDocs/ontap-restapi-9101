@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_nvme_services.html'
+keywords: 'nvme service,non volatile memory,svm target,nvme controller,performance monitoring'
 summary: 'Manage NVMe services'
 ---
 
 = Manage NVMe services
+:imagesdir: ./media/
 
-
+[.lead]
+The Non-Volatile Memory Express (NVMe) service endpoints let you manage the properties of NVMe services associated with SVMs. Use these endpoints to create, update, delete, and discover NVMe services, ensuring that NVMe host initiators can connect to your SVMs. Performance monitoring is also available to track metrics such as IOPS, latency, and throughput.
 
 == Overview
 

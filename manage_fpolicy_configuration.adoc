@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fpolicy_configuration.html'
+keywords: 'fpolicy configuration,file access permissions,partner applications,file type restrictions,policy management,file operation permissions'
 summary: 'Manage FPolicy configuration'
 ---
 
 = Manage FPolicy configuration
+:imagesdir: ./media/
 
-
+[.lead]
+Configure FPolicy settings to integrate partner applications with ONTAP for monitoring and managing file access permissions. Use these endpoints to specify FPolicy engines, events, and policies that control file operations based on protocol and file type, enhancing security and compliance across your storage systems.
 
 == Overview
 

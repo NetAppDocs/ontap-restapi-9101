@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_file_clones.html'
+keywords: 'file clone,clone split,manage split,split loads,storage volume,clone tokens'
 summary: 'Manage storage file clones'
 ---
 
 = Manage storage file clones
+:imagesdir: ./media/
 
-
+[.lead]
+Create file clones within a volume and manage their split operations using these endpoints. Cloning files efficiently shares unchanged data blocks, while split operations detach child clones from their parents. Use file clone tokens to reserve space and ensure seamless clone creation amidst ongoing splits.
 
 == Overview
 

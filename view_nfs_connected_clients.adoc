@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_nfs_connected_clients.html'
+keywords: 'connected clients, nfs clients, client ip, server ip, idle duration, export policy'
 summary: 'View NFS connected clients'
 ---
 
 = View NFS connected clients
+:imagesdir: ./media/
 
-
+[.lead]
+Use these endpoints to list currently connected NFS clients and identify potential idle clients that can connect. They retrieve detailed information such as node and SVM identifiers, client and server IP addresses, accessed volumes, and protocol versions.
 
 == Overview
 

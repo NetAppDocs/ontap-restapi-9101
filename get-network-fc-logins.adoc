@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-fc-logins.html'
+keywords: 'fc logins,initiator wwnn,interface wwpn,svm uuid,igroup name,protocol'
 summary: 'Retrieve FC logins'
 ---
 
 = Retrieve FC logins
+:imagesdir: ./media/
+
+[.lead]
+Retrieves information about FC logins to monitor and analyze Fibre Channel connections in your network. This can help you ensure optimal performance and troubleshoot connectivity issues.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/fc/logins`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves FC logins.
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_autosupport_configuration.html'
+keywords: 'autosupport configuration, call home, cluster connectivity, smtp transport, error reporting'
 summary: 'Manage AutoSupport configuration'
 ---
 
 = Manage AutoSupport configuration
+:imagesdir: ./media/
 
-
+[.lead]
+AutoSupport endpoints facilitate the management of the AutoSupport configuration for your cluster. Retrieve current settings or modify them to ensure accurate status and error reporting to NetApp. Additionally, these endpoints provide options for checking connectivity issues related to AutoSupport.
 
 == Overview
 

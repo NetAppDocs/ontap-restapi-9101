@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-luns-metrics.html'
+keywords: 'historical performance,lun metrics,unique identifier,performance data,time range'
 summary: 'Retrieve historical performance metrics for a LUN'
 ---
 
 = Retrieve historical performance metrics for a LUN
+:imagesdir: ./media/
+
+[.lead]
+Retrieves historical performance metrics for a LUN to analyze its past activity and performance trends. This can help you optimize storage resources and make informed decisions based on the LUN's historical data.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/luns/{uuid}/metrics`#
 
-*Introduced In:* 9.7
+== Introduced in
 
-Retrieves historical performance metrics for a LUN.
-
+ONTAP 9.7
 
 == Parameters
 

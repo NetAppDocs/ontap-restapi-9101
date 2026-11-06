@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-svm-svms-.html'
+keywords: 'svm update,svm state,svm language,svm comment,svm rename,svm protocols'
 summary: 'Update SVM properties'
 ---
 
 = Update SVM properties
+:imagesdir: ./media/
+
+[.lead]
+Updates the properties of an individual SVM, such as its name, language code, comment, or state. This helps you modify SVM configurations to align with your storage management requirements.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/svm/svms/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates one or more of the following properties of an individual SVM: SVM name, SVM default volume language code, SVM comment, and SVM state.
 

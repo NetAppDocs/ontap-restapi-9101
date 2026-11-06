@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_flexcache_origin_volumes.html'
+keywords: 'flexcache origin,storage flexcache,flexvol flexgroup,intra vserver,cross cluster'
 summary: 'Manage storage FlexCache origin volumes'
 ---
 
 = Manage storage FlexCache origin volumes
+:imagesdir: ./media/
 
-
+[.lead]
+Manage FlexCache origin volumes to optimize data access across clusters and Vservers. Use these APIs to retrieve and modify attributes and configurations of origin volumes within your environment.
 
 == Overview
 

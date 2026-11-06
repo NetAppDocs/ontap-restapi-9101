@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_ndmp_mode.html'
+keywords: 'ndmp management,ndmp mode,svm scope,node scope,protocols ndmp'
 summary: 'Manage NDMP mode'
 ---
 
 = Manage NDMP mode
+:imagesdir: ./media/
 
-
+[.lead]
+Manage NDMP mode endpoints to configure and update the mode settings for NDMP, choosing between SVM-scope or node-scope based on your requirements.
 
 You can use this API to manage NDMP mode: SVM-scope or node-scope.
 

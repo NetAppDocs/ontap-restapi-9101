@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-san-portsets-interfaces.html'
+keywords: 'portset interfaces,add interfaces,network interface,portset uuid,san portset'
 summary: 'Add portset network interfaces'
 ---
 
 = Add portset network interfaces
+:imagesdir: ./media/
+
+[.lead]
+Adds interfaces to a portset to enhance connectivity options for SAN protocols. This is useful when you need to manage multiple interfaces within a portset configuration.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/san/portsets/{portset.uuid}/interfaces`#
 
-*Introduced In:* 9.9
+== Introduced in
+
+ONTAP 9.9
+
+== Usage notes
 
 Adds one or more interfaces to a portset.
 

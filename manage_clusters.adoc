@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_clusters.html'
+keywords: 'manage clusters,cluster configurations,create cluster,single node cluster,cluster performance'
 summary: 'Manage clusters'
 ---
 
 = Manage clusters
+:imagesdir: ./media/
 
-
+[.lead]
+Create and configure clusters using endpoints that enable you to set up new clusters, adjust cluster-wide settings, and retrieve existing configuration details. These APIs are essential for initiating and managing your cluster's setup and ongoing configuration.
 
 = Overview
 :doctype: book

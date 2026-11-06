@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-fpolicy-connections.html'
+keywords: 'fpolicy servers,status retrieval,svm connections,connection status,protocols fpolicy'
 summary: 'Retrieve the status of FPolicy servers'
 ---
 
 = Retrieve the status of FPolicy servers
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the status of FPolicy servers to monitor their current operational state and configuration. This helps you ensure that file policies are enforced correctly within your network environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/fpolicy/{svm.uuid}/connections`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves the statuses of FPolicy servers.
 

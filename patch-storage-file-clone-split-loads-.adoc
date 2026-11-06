@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-storage-file-clone-split-loads-.html'
+keywords: 'clone split,split load,maximum split,volume clone,modify split'
 summary: 'Update the maximum split load'
 ---
 
 = Update the maximum split load
+:imagesdir: ./media/
+
+[.lead]
+Updates the maximum allowable split load for a file clone operation. This helps manage the performance impact of splitting file clones in your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/storage/file/clone/split-loads/{node.uuid}`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Updates the maximum split load.
 

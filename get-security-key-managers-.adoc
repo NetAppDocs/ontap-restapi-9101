@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-key-managers-.html'
+keywords: 'key managers,uuid,security key manager,retrieve key manager,external key manager,show key store'
 summary: 'Retrieve key managers'
 ---
 
 = Retrieve key managers
+:imagesdir: ./media/
+
+[.lead]
+Retrieves key managers to access essential information about your encryption key management configurations. Use this endpoint to review current key manager settings and ensure your security protocols are up-to-date.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/key-managers/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves key managers.
+ONTAP 9.6
 
 == Expensive properties
 

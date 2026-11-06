@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-ip-interfaces.html'
+keywords: 'ip interfaces,network details,ip filters,svm filters,dns zone,failover location'
 summary: 'Retrieve all IP interface details'
 ---
 
 = Retrieve all IP interface details
+:imagesdir: ./media/
+
+[.lead]
+Accesses the details of all IP interfaces, offering insight into your network configuration.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/ip/interfaces`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves the details of all IP interfaces.
 

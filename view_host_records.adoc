@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_host_records.html'
+keywords: 'ip address,hostname,host records,host table,svm records'
 summary: 'View host records'
 ---
 
 = View host records
+:imagesdir: ./media/
 
-
+[.lead]
+View host records using endpoints to map an IP address to a hostname and vice-versa. Retrieve host table entries to facilitate network management and troubleshooting within your ONTAP environment.
 
 == Overview
 

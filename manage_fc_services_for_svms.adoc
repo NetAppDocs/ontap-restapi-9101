@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_fc_services_for_svms.html'
+keywords: 'fibre channel,fc protocol,svm management,performance monitoring,iops latency'
 summary: 'Manage FC services for SVMs'
 ---
 
 = Manage FC services for SVMs
+:imagesdir: ./media/
 
-
+[.lead]
+Utilize the FC Protocol service REST API to create, update, delete, and discover Fibre Channel services for SVMs. Establish an SVM FC Protocol service to manage initiator logins and define target properties effectively. Performance monitoring can be performed using metrics and statistics properties for detailed insights into IOPS, latency, and throughput.
 
 == Overview
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_san_lun_maps.html'
+keywords: 'san lun,initiator group,lun map management,selective lun map,reporting nodes'
 summary: 'Manage SAN LUN maps'
 ---
 
 = Manage SAN LUN maps
+:imagesdir: ./media/
 
-
+[.lead]
+LUN map endpoints let you manage associations between LUNs and initiator groups, enabling access control in your SAN environment. Use these endpoints to create, delete, and discover LUN maps and configure reporting nodes for selective LUN mapping.
 
 == Overview
 

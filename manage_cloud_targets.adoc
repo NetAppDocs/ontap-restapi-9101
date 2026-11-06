@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_cloud_targets.html'
+keywords: 'cloud targets,object store,cluster connectivity,data bucket,fabricpool license,ssl authentication'
 summary: 'Manage cloud targets'
 ---
 
 = Manage cloud targets
+:imagesdir: ./media/
 
-
+[.lead]
+Manage cloud targets within your ONTAP cluster by retrieving, creating, and deleting configurations for object store connections. Use these endpoints to ensure proper setup and connectivity to cloud-based storage for efficient data management.
 
 == Retrieving a collection of cloud targets
 

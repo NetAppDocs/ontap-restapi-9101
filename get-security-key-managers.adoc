@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-key-managers.html'
+keywords: 'key managers,retrieve key managers,key manager commands,data at rest encryption,volume encryption,external servers'
 summary: 'Retrieve key managers'
 ---
 
 = Retrieve key managers
+:imagesdir: ./media/
+
+[.lead]
+Retrieves information about key managers to monitor and manage the security of keys within your storage environment. This operation helps you ensure that key management configurations are correctly set up and functioning as expected.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/key-managers`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves key managers.
 

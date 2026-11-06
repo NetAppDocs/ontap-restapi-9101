@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-iscsi-services.html'
+keywords: 'iscsi services, san protocols, vserver iscsi, latency statistics, throughput metrics'
 summary: 'Retrieve iSCSI services'
 ---
 
 = Retrieve iSCSI services
+:imagesdir: ./media/
+
+[.lead]
+Accesses iSCSI services to review their current configurations and status. Use this information to manage or troubleshoot iSCSI service operations effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/iscsi/services`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves iSCSI services.
 

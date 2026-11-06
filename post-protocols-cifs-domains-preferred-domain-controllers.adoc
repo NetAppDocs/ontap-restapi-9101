@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-cifs-domains-preferred-domain-controllers.html'
+keywords: 'cifs configuration,preferred domain controller,svm domain,dc setup,domain controller ip'
 summary: 'Create the CIFS domain preferred DC configuration for an SVM'
 ---
 
 = Create the CIFS domain preferred DC configuration for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Configures a preferred domain controller (DC) for a CIFS domain within a specific SVM. This setup helps ensure optimal domain controller selection and performance for CIFS operations.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/cifs/domains/{svm.uuid}/preferred-domain-controllers`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Creates a CIFS preferred DC configuration for an SVM.
 

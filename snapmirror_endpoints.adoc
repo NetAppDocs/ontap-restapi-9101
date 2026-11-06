@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'snapmirror_endpoints.html'
+keywords: 'snapmirror technology,backup relationship,disaster recovery,restore relationships,data transfers'
 summary: 'ONTAP REST API snapmirror endpoints'
 ---
 
 = ONTAP REST API snapmirror endpoints
+:imagesdir: ./media/
 
-
+[.lead]
+SnapMirror endpoints facilitate the creation and management of SnapMirror relationships to copy and backup production data efficiently. Utilize these endpoints to establish async and sync relationships, manage restore-relationships, and control data transfers, ensuring up-to-date replicas for disaster recovery and data restoration.
 
 == Overview
 

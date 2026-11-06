@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-application-consistency-groups-snapshots.html'
+keywords: 'snapshot copy,consistency group,snapshot creation,consistency group uuid,snapshot management'
 summary: 'Create a consistency group Snapshot copy'
 ---
 
 = Create a consistency group Snapshot copy
+:imagesdir: ./media/
+
+[.lead]
+Creates a Snapshot copy of an existing consistency group. Use this operation to capture the state of the group for data protection and recovery purposes.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/application/consistency-groups/{consistency_group.uuid}/snapshots`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Creates a Snapshot copy of an existing consistency group.
+ONTAP 9.10
 
 == Required properties
 

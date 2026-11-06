@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-licensing-capacity-pools-.html'
+keywords: 'capacity pool,license details,serial number,license manager,cluster licensing'
 summary: 'Retrieve capacity pool information'
 ---
 
 = Retrieve capacity pool information
+:imagesdir: ./media/
+
+[.lead]
+Accesses details about the capacity pool, helping you understand its configuration and status.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/licensing/capacity-pools/{serial_number}`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Retrieves information about the capacity pool.
 

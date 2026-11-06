@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_lock_details.html'
+keywords: 'lock details,synchronization mechanism,file access,concurrent access,query fields'
 summary: 'View lock details'
 ---
 
 = View lock details
+:imagesdir: ./media/
 
-
+[.lead]
+Access lock details using these endpoints to manage file synchronization and control concurrent access by multiple clients. Optimize query processing by providing comprehensive fields when viewing or breaking locks.
 
 == Overview
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-file-clone-tokens.html'
+keywords: 'clone tokens,clone creation,reserve space,split load,file clone'
 summary: 'Create a new token to reserve the split load'
 ---
 
 = Create a new token to reserve the split load
+:imagesdir: ./media/
+
+[.lead]
+Creates a token to reserve space for clone creation on a node, managing the clone split load effectively. Use this operation when you need to ensure sufficient space is allocated for clone processes, with options to specify reserve size and expiration parameters.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/file/clone/tokens`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Creates a new token to reserve the split load.
 

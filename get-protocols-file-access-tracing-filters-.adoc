@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-file-access-tracing-filters-.html'
+keywords: 'security trace,trace filter,file access,svm uuid,filter entry'
 summary: 'Retrieve information about security trace filter entries for an SVM'
 ---
 
 = Retrieve information about security trace filter entries for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Accesses details on security trace filter entries for an SVM, which helps you monitor and analyze security-related activities within your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/file-access-tracing/filters/{svm.uuid}/{index}`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Retrieves information about security trace filter entries.
 
