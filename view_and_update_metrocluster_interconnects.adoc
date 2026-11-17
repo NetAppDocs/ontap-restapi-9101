@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'view_and_update_metrocluster_interconnects.html'
+keywords: 'metrocluster interconnect,interconnect status,modify interconnect,netmask gateway,address update,interconnect node'
 summary: 'View and update MetroCluster interconnects'
 ---
 
 = View and update MetroCluster interconnects
+:imagesdir: ./media/
 
-
+[.lead]
+Use MetroCluster interconnect endpoints to view and modify interconnect status and network settings within your MetroCluster environment. Retrieve detailed information about each interconnect, including address, netmask, and gateway configurations, to ensure optimal connectivity and performance.
 
 == Overview
 

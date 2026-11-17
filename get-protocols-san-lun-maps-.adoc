@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-lun-maps-.html'
+keywords: 'lun map,retrieve lun,lun map show,igroup uuid,san protocols'
 summary: 'Retrieve a LUN map'
 ---
 
 = Retrieve a LUN map
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the mapping details of a logical unit number (LUN), useful for understanding how storage is allocated and accessed within your network setup.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/lun-maps/{lun.uuid}/{igroup.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a LUN map.
 

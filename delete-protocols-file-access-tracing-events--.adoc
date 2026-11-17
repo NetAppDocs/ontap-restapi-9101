@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-protocols-file-access-tracing-events--.html'
+keywords: 'file access tracing,trace results delete,trace event sequence,node uuid,svm uuid'
 summary: 'Delete trace results'
 ---
 
 = Delete trace results
+:imagesdir: ./media/
+
+[.lead]
+Deletes trace results to remove unwanted or outdated data from your system. This action helps maintain the efficiency and relevance of your trace data management.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/protocols/file-access-tracing/events/{node.uuid}/{svm.uuid}/{index}`#
 
-*Introduced In:* 9.8
+== Introduced in
 
-Deletes trace results.
+ONTAP 9.8
 
 == Related ONTAP commands
 

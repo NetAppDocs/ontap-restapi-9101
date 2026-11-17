@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-protocols-audit-.html'
+keywords: 'delete audit,svm uuid,audit configuration,force delete,vserver audit'
 summary: 'Delete an audit configuration'
 ---
 
 = Delete an audit configuration
+:imagesdir: ./media/
+
+[.lead]
+Deletes an audit configuration to remove logging settings that are no longer needed or to reset the audit environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/protocols/audit/{svm.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Deletes an audit configuration.
+ONTAP 9.6
 
 == Related ONTAP commands
 

@@ -2,13 +2,16 @@
 sidebar: sidebar
 api: true
 explorer: false
-permalink: 'manage_authentication_keys_(end-users).html'
+permalink: 'manage_authentication_keys_end-users_.html'
+keywords: 'public keys,manage keys,user accounts,owner uuid,key index'
 summary: 'Manage authentication keys (end-users)'
 ---
 
 = Manage authentication keys (end-users)
+:imagesdir: ./media/
 
-
+[.lead]
+Configure public keys for end-user accounts using these endpoints. Identify the specific user account and key index to retrieve, update, or delete authentication keys associated with SVMs.
 
 == Overview
 

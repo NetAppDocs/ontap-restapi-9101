@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-cifs-unix-symlink-mapping.html'
+keywords: 'unix symbolic link,cifs client,symbolic link mapping,unix path,cifs share,cifs path'
 summary: 'Create a UNIX symbolic link mapping for a CIFS client'
 ---
 
 = Create a UNIX symbolic link mapping for a CIFS client
+:imagesdir: ./media/
+
+[.lead]
+Creates a UNIX symbolic link mapping for a CIFS client. This is useful for managing file access and organization across different network protocols.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/cifs/unix-symlink-mapping`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a UNIX symbolic link mapping for a CIFS client.
+ONTAP 9.6
 
 == Required properties
 

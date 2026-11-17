@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_unix_user_configurations.html'
+keywords: 'unix user configurations,local unix users,data svms,user creation,user deletion,user update'
 summary: 'Manage UNIX user configurations'
 ---
 
 = Manage UNIX user configurations
+:imagesdir: ./media/
 
-
+[.lead]
+Display and control local UNIX user configurations with these endpoints. Use them to manage user settings within data SVMs effectively.
 
 == Overview
 

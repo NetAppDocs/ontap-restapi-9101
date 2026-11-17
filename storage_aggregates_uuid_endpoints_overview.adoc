@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'storage_aggregates_uuid_endpoints_overview.html'
+keywords: 'ontap rest, storage management, http methods, hal linking, query parameters'
 summary: 'storage aggregates uuid endpoints overview'
 ---
 
 = storage aggregates uuid endpoints
+:imagesdir: ./media/
 
-
+[.lead]
+The ONTAP REST API offers a comprehensive set of endpoints designed to help you manage and automate your storage systems efficiently. This documentation provides detailed information on how to use these API calls, including examples and descriptions of required properties, enabling seamless integration and control over your storage infrastructure.
 
 == Updating storage aggregates
 

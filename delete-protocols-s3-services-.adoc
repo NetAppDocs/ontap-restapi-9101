@@ -3,16 +3,27 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-protocols-s3-services-.html'
+keywords: 's3 server delete,s3 configuration removal,svm s3 deletion,empty bucket removal,s3 user removal'
 summary: 'Delete the S3 server configuration for an SVM'
 ---
 
 = Delete the S3 server configuration for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Deletes the S3 server configuration of an SVM, either removing just the server or all associated users and empty buckets based on your specified parameters. This endpoint helps manage your S3 server configuration effectively within the SVM environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}`#
 
-*Introduced In:* 9.7
+== Introduced in
 
-Deletes the S3 server configuration of an SVM. If the 'delete_all' parameter is set to false, only the S3 server is deleted. Otherwise S3 users and buckets present on the SVM are also deleted. Note that only empty buckets can be deleted. This endpoint returns the S3 server delete job-uuid in response. To monitor the job status follow /api/cluster/jobs/+++<job-uuid>+++.+++</job-uuid>+++
+ONTAP 9.7
+
+== Usage notes
+
+If the 'delete_all' parameter is set to false, only the S3 server is deleted. Otherwise S3 users and buckets present on the SVM are also deleted. Note that only empty buckets can be deleted. This endpoint returns the S3 server delete job-uuid in response. To monitor the job status follow /api/cluster/jobs/+++<job-uuid>+++.+++</job-uuid>+++
 
 == Related ONTAP commands
 

@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-file-access-tracing-filters.html'
+keywords: 'security trace,trace filter,filter entries,file access tracing,create filter,security entries'
 summary: 'Creates security trace filter entries'
 ---
 
 = Creates security trace filter entries
+:imagesdir: ./media/
+
+[.lead]
+Creates security trace filter entries to define criteria for tracing security-related events in the system. This helps in monitoring and analyzing security activities.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/file-access-tracing/filters`#
 
-*Introduced In:* 9.8
+== Introduced in
 
-Creates security trace filter entries.
+ONTAP 9.8
 
 == Related ONTAP commands
 

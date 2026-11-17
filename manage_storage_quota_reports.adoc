@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_quota_reports.html'
+keywords: 'storage quota,quota reports,flexvol consumption,flexgroup usage,qtree limits'
 summary: 'Manage storage quota reports'
 ---
 
 = Manage storage quota reports
+:imagesdir: ./media/
 
-
+[.lead]
+Quota report endpoints provide access to current file and space consumption data for users, groups, or qtrees within FlexVol or FlexGroup volumes. Use these endpoints to retrieve detailed quota report records associated with specific volumes, helping you monitor resource usage effectively.
 
 == Overview
 

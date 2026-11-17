@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-name-services-ldap-.html'
+keywords: 'ldap configuration,svm update,active directory domain,ldap servers,ipv6 enabled'
 summary: 'Update the LDAP configuration for an SVM'
 ---
 
 = Update the LDAP configuration for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Updates the LDAP configuration for a Storage Virtual Machine (SVM) to modify authentication settings as needed. This operation is useful when you want to adjust parameters like the LDAP servers or Active Directory domain to ensure proper authentication and directory services integration.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/name-services/ldap/{svm.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates an LDAP configuration of an SVM.
 

@@ -3,16 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster-licensing-licenses.html'
+keywords: 'license packages,license collection,licensed packages,unlicensed packages,license compliance,license expiry'
 summary: 'Retrieve license packages'
 ---
 
 = Retrieve license packages
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a collection of license packages to review the available licenses on your system. This can help you manage and assess the licensing status of your ONTAP environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster/licensing/licenses`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves a collection of license packages.
+ONTAP 9.6
+
+== Usage notes
 
 NOTE: By default, the GET method only returns licensed packages. You must provide the following query "state=unlicensed" to retrieve unlicensed packages.
 

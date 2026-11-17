@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-security-ssh-svms.html'
+keywords: 'ssh configuration,svm configuration,ssh server,security settings,svm security'
 summary: 'Retrieve the SSH server configuration for all SVMs'
 ---
 
 = Retrieve the SSH server configuration for all SVMs
+:imagesdir: ./media/
+
+[.lead]
+Gets the SSH server configuration details for all SVMs. This helps you understand and manage your network security settings across the storage virtual machines.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/security/ssh/svms`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves the SSH server configuration for all the SVMs.
 

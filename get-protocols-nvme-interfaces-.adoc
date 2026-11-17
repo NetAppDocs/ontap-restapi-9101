@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-nvme-interfaces-.html'
+keywords: 'nvme interface,retrieve nvme,nvme protocols,uuid identifier,nvme commands'
 summary: 'Retrieve an NVMe interface'
 ---
 
 = Retrieve an NVMe interface
+:imagesdir: ./media/
+
+[.lead]
+Retrieves an NVMe interface to view its configuration and status. This is useful for managing and monitoring NVMe protocol operations within your system.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/nvme/interfaces/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves an NVMe interface.
+ONTAP 9.6
 
 == Related ONTAP commands
 

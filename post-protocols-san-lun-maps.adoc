@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-san-lun-maps.html'
+keywords: 'lun map,san lun,logical unit,mapping create,initiator group,svm name'
 summary: 'Create a LUN map'
 ---
 
 = Create a LUN map
+:imagesdir: ./media/
+
+[.lead]
+Creates a LUN map to associate a logical unit number with an existing initiator group and a specific LUN within an SVM. This operation is typically performed to enable access to the LUN by the initiators in the group.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/san/lun-maps`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a LUN map.
+ONTAP 9.6
 
 == Required properties
 

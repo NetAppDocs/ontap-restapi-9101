@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-protocols-nvme-subsystem-maps-.html'
+keywords: 'nvme subsystem,subsystem map,delete nvme map,nvme namespace,ontap nvme'
 summary: 'Delete an NVMe subsystem map'
 ---
 
 = Delete an NVMe subsystem map
+:imagesdir: ./media/
+
+[.lead]
+Deletes an NVMe subsystem map, which removes the association between NVMe subsystems and namespaces.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/protocols/nvme/subsystem-maps/{subsystem.uuid}/{namespace.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Deletes an NVMe subsystem map.
+ONTAP 9.6
 
 == Related ONTAP commands
 

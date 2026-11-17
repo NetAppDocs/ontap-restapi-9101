@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-storage-qos-policies.html'
+keywords: 'qos policy,create policy,storage qos,qos policy group,adaptive policy,svm policy'
 summary: 'Create a QoS policy'
 ---
 
 = Create a QoS policy
+:imagesdir: ./media/
+
+[.lead]
+Creates a QoS policy to manage and control the performance of storage workloads within your ONTAP system. Use this to specify performance objectives and ensure predictable service levels for applications.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/storage/qos/policies`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Creates a QoS policy.
+ONTAP 9.6
 
 == Required properties
 

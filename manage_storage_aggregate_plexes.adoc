@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_storage_aggregate_plexes.html'
+keywords: 'storage aggregate,storage plex,raid group,raid disk,aggregate management'
 summary: 'Manage storage aggregate plexes'
 ---
 
 = Manage storage aggregate plexes
+:imagesdir: ./media/
 
-
+[.lead]
+Access state information for storage aggregate plexes using the Storage Aggregate Plex API. You can retrieve details about RAID groups and the disks that form each RAID group within a plex.
 
 == Overview
 

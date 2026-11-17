@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-protocols-san-igroups-initiators.html'
+keywords: 'initiator group,igroup initiators,san protocols,initiator collection,ontap igroup'
 summary: 'Retrieve initiators of an initiator group'
 ---
 
 = Retrieve initiators of an initiator group
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the initiators belonging to a specific initiator group. This is useful for managing and verifying the direct membership of initiators within your SAN environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/protocols/san/igroups/{igroup.uuid}/initiators`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves initiators of an initiator group.
 This API only reports initiators owned directly by the initiator group.

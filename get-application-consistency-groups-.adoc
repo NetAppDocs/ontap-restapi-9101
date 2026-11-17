@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-application-consistency-groups-.html'
+keywords: 'consistency group,consistency retrieval,volumes filter,luns filter,qos policy,snapshot policy'
 summary: 'Retrieve a consistency group'
 ---
 
 = Retrieve a consistency group
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a single consistency group to access its detailed configuration and properties. Use this when you need specific information about a group, including its associated volumes, LUNs, or namespaces.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/application/consistency-groups/{uuid}`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves a single consistency group.
+ONTAP 9.10
 
 == Expensive properties
 

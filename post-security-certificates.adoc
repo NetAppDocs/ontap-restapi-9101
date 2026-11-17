@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-security-certificates.html'
+keywords: 'certificate creation,certificate installation,certificate expiry,svm certificate,public key,private key'
 summary: 'Create or install security certificates'
 ---
 
 = Create or install security certificates
+:imagesdir: ./media/
+
+[.lead]
+Creates or installs security certificates for an existing SVM. Use this endpoint when you need to manage certificate configurations for secure communications or authentication within your system.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/security/certificates`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Creates or installs a certificate.
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-snaplock-litigations-operations-.html'
+keywords: 'snaplock status,legal hold,snaplock litigation,operation status,legal hold status'
 summary: 'Retrieve the status of legal-hold for an operation ID'
 ---
 
 = Retrieve the status of legal-hold for an operation ID
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the status of a legal hold for a specific operation ID to monitor its current state. This is useful for managing and tracking compliance-related operations within your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/snaplock/litigations/{litigation.id}/operations/{id}`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Retrieves the status of legal-hold for the specified operation ID.
 

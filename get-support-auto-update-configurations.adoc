@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-support-auto-update-configurations.html'
+keywords: 'automatic updates,update configuration,auto-update settings,configuration retrieval,update management'
 summary: 'Retrieve the configuration for an automatic update'
 ---
 
 = Retrieve the configuration for an automatic update
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the configuration for automatic updates, helping you understand the current update settings.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/support/auto-update/configurations`#
 
-*Introduced In:* 9.10
+== Introduced in
 
-Retrieves the configuration for automatic updates.
-
+ONTAP 9.10
 
 == Parameters
 

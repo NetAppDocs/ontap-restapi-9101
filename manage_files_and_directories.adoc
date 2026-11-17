@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_files_and_directories.html'
+keywords: 'manage files,manage directories,file properties,directory properties,file system analytics,qos policies'
 summary: 'Manage files and directories'
 ---
 
 = Manage files and directories
+:imagesdir: ./media/
 
-
+[.lead]
+Utilize the Manage files and directories endpoints to read and write file data, list file and directory contents, and modify attributes. These APIs provide a comprehensive approach to handling file system operations within your environment, including creating, deleting, and renaming directories and files.
 
 == Overview
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-s3-services-users.html'
+keywords: 's3 user,create user,s3 services,user access key,user secret key,user configuration'
 summary: 'Create an S3 user configuration'
 ---
 
 = Create an S3 user configuration
+:imagesdir: ./media/
+
+[.lead]
+Configures an S3 user in ONTAP, setting up access credentials for object storage operations. Use this endpoint when you need to establish user access to S3 services within a specific SVM.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/s3/services/{svm.uuid}/users`#
 
-*Introduced In:* 9.7
+== Introduced in
+
+ONTAP 9.7
+
+== Usage notes
 
 Creates the S3 user configuration.
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-shelves-.html'
+keywords: 'storage shelves,shelf retrieval,shelf uid,ontap storage,storage shelf show'
 summary: 'Retrieve a shelf'
 ---
 
 = Retrieve a shelf
+:imagesdir: ./media/
+
+[.lead]
+Retrieves details about a specific shelf to monitor or manage its configuration within your storage environment.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/shelves/{uid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves a specific shelf.
 

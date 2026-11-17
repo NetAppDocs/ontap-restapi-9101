@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-svm-peer-permissions-.html'
+keywords: 'svm permissions,peer update,cluster peer,svm peer,flexcache,uuid path'
 summary: 'Update SVM peer permissions'
 ---
 
 = Update SVM peer permissions
+:imagesdir: ./media/
+
+[.lead]
+Updates SVM peer permissions to modify existing permissions for SVM peers. This enables communication between SVMs for operations like data replication or cache sharing.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/svm/peer-permissions/{cluster_peer.uuid}/{svm.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates the SVM peer permissions.
+ONTAP 9.6
 
 == Related ONTAP commands
 

@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_local_users.html'
+keywords: 'cifs authentication, local user management, storage virtual machine, user configuration, file access rights'
 summary: 'Manage local users'
 ---
 
 = Manage local users
+:imagesdir: ./media/
 
-
+[.lead]
+Use the local users API to manage CIFS server user configurations within storage virtual machines (SVMs). You can retrieve, create, update, and delete local user information, as well as control authentication and authorization settings for accessing data.
 
 == Overview
 

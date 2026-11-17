@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-network-fc-interfaces-.html'
+keywords: 'fc interface,network fc,interface uuid,fibre channel,ontap commands'
 summary: 'Retrieve an FC interface'
 ---
 
 = Retrieve an FC interface
+:imagesdir: ./media/
+
+[.lead]
+Retrieves an FC interface to access its configuration details and statistics. Use this information to monitor and manage the Fibre Channel network environment effectively.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/network/fc/interfaces/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves an FC interface.
+ONTAP 9.6
 
 == Expensive properties
 

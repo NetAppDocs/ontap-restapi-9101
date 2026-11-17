@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_scoped_user_accounts.html'
+keywords: 'scoped user accounts,manage user accounts,user account configuration,svm user management,user account deletion'
 summary: 'Manage scoped user accounts'
 ---
 
 = Manage scoped user accounts
+:imagesdir: ./media/
 
-
+[.lead]
+Manage the configuration of scoped user accounts to control access and permissions within your ONTAP environment. Use these endpoints to update user account details, change authentication methods, or remove accounts as needed.
 
 == Overview
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-storage-luns-.html'
+keywords: 'lun delete,lun management,storage luns,delete mapped lun,data storage'
 summary: 'Delete a LUN'
 ---
 
 = Delete a LUN
+:imagesdir: ./media/
+
+[.lead]
+Removes a LUN from your storage configuration, which is useful for freeing up resources or when a LUN is no longer needed.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/storage/luns/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Deletes a LUN.
 

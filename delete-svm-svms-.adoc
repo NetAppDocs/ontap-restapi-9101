@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-svm-svms-.html'
+keywords: 'delete svm,svm removal,svm prerequisites,snapmirror delete,data volume offline,vserver delete'
 summary: 'Delete an SVM'
 ---
 
 = Delete an SVM
+:imagesdir: ./media/
+
+[.lead]
+Deletes a Storage Virtual Machine (SVM) when it is no longer needed, typically after ensuring that all associated resources like SnapMirror relationships and data volumes have been properly managed.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/svm/svms/{uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Deletes an SVM. As a prerequisite, SVM objects must be deleted first. SnapMirror relationships must be deleted and data volumes must be offline and deleted.
 

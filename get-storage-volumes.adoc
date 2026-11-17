@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-volumes.html'
+keywords: 'volumes retrieval,storage volumes,flexvol flexgroup,volume clone,encryption properties,snaplock retention'
 summary: 'Retrieve volumes'
 ---
 
 = Retrieve volumes
+:imagesdir: ./media/
+
+[.lead]
+Accesses information about volumes, which allows you to manage and monitor the configurations and statuses of your storage volumes.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/volumes`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Retrieves volumes.
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'post-protocols-s3-buckets.html'
+keywords: 's3 bucket,svm bucket,flexgroup volume,access policy,qos group'
 summary: 'Create the S3 bucket configuration for an SVM'
 ---
 
 = Create the S3 bucket configuration for an SVM
+:imagesdir: ./media/
+
+[.lead]
+Creates the S3 bucket configuration for an SVM, setting up the necessary structure for object storage within the SVM environment. This operation is useful for defining how data is stored and accessed in your storage environment, including options for quality of service and auditing.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/protocols/s3/buckets`#
 
-*Introduced In:* 9.8
+== Introduced in
+
+ONTAP 9.8
+
+== Usage notes
 
 Creates the S3 bucket configuration of an SVM.
 

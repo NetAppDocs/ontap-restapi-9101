@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'delete-security-key-managers-key-servers-.html'
+keywords: 'security key manager,delete key server,key server removal,external key manager,key server configuration'
 summary: 'Delete a primary key server'
 ---
 
 = Delete a primary key server
+:imagesdir: ./media/
+
+[.lead]
+Deletes a primary key server to remove its configuration and cease its management within the system.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-delete]#DELETE# [.api-doc-code-block]#`/security/key-managers/{uuid}/key-servers/{server}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Deletes a key server.
 

@@ -3,16 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-san-iscsi-services-.html'
+keywords: 'iscsi service update,iscsi modify,iscsi start,iscsi stop,svm uuid,san protocols'
 summary: 'Update an iSCSI service'
 ---
 
 = Update an iSCSI service
+:imagesdir: ./media/
+
+[.lead]
+Updates an iSCSI service configuration to adjust settings or maintain the service as needed.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/san/iscsi/services/{svm.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Updates an iSCSI service.
+ONTAP 9.6
 
 == Related ONTAP commands
 

@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-storage-file-clone-tokens-.html'
+keywords: 'file clone,retrieve token,clone token,node uuid,token uuid,expiry time'
 summary: 'Retrieve a file clone token'
 ---
 
 = Retrieve a file clone token
+:imagesdir: ./media/
+
+[.lead]
+Retrieves a file clone token to access details about the token's configuration and status. This can be useful for monitoring or managing file cloning operations.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/storage/file/clone/tokens/{node.uuid}/{uuid}`#
 
-*Introduced In:* 9.10
+== Introduced in
+
+ONTAP 9.10
+
+== Usage notes
 
 Retrieves a file clone token
 

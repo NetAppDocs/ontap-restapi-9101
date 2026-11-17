@@ -3,14 +3,25 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'patch-protocols-nfs-kerberos-interfaces-.html'
+keywords: 'kerberos interface,interface update,nfs kerberos,nfs interface,protocols nfs,kerberos properties'
 summary: 'Update Kerberos interface properties'
 ---
 
 = Update Kerberos interface properties
+:imagesdir: ./media/
+
+[.lead]
+Adjusts the properties of a Kerberos interface to configure its settings according to your requirements. Use this endpoint when you need to update interface parameters for secure network authentication.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-patch]#PATCH# [.api-doc-code-block]#`/protocols/nfs/kerberos/interfaces/{interface.uuid}`#
 
-*Introduced In:* 9.6
+== Introduced in
+
+ONTAP 9.6
+
+== Usage notes
 
 Updates the properties of a Kerberos interface.
 

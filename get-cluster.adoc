@@ -3,17 +3,23 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'get-cluster.html'
+keywords: 'cluster configuration,cluster retrieve,ontap cluster,cluster fields,netapp cluster'
 summary: 'Retrieve the cluster configuration'
 ---
 
 = Retrieve the cluster configuration
+:imagesdir: ./media/
+
+[.lead]
+Retrieves the cluster configuration to understand the current settings and structure of your ONTAP cluster.
+
+== HTTP method and endpoint
 
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/cluster`#
 
-*Introduced In:* 9.6
+== Introduced in
 
-Retrieves the cluster configuration.
-
+ONTAP 9.6
 
 == Parameters
 

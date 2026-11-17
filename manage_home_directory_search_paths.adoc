@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'manage_home_directory_search_paths.html'
+keywords: 'smb users,CIFS server,home directories,dynamic share,search paths'
 summary: 'Manage home directory search paths'
 ---
 
 = Manage home directory search paths
+:imagesdir: ./media/
 
-
+[.lead]
+Manage home directory search paths to configure dynamic shares for SMB users. Add, retrieve, reorder, and remove search paths across SVMs to ensure efficient access to user home directories.
 
 == Overview
 

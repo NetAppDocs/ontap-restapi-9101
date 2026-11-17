@@ -3,12 +3,15 @@ sidebar: sidebar
 api: true
 explorer: false
 permalink: 'create_or_retrieve_event_filters.html'
+keywords: 'event filters, filter rules, name pattern, severity matching, snmp trap'
 summary: 'Create or retrieve event filters'
 ---
 
 = Create or retrieve event filters
+:imagesdir: ./media/
 
-
+[.lead]
+Manage event filters to identify and handle specific system events within your ONTAP environment. Use filter rules to customize the logic for event matching based on criteria such as name patterns, severity levels, and SNMP trap types. Default system-defined filters are immutable, ensuring certain events always receive appropriate attention.
 
 == Overview
 
